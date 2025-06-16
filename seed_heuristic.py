@@ -1,5 +1,6 @@
 import string
 import random
+import os
 
 from manim import *
 from manim_voiceover import VoiceoverScene
@@ -52,8 +53,8 @@ class SeedHeuristicPrecomputation(VoiceoverScene, MovingCameraScene, NormPlay):
             self.wait(wait_after)
 
     def setup_voiceover(self):
-        os.environ["AZURE_SUBSCRIPTION_KEY"] = "60c24696a4da49ba94a903def1577350"
-        os.environ["AZURE_SERVICE_REGION"] = "eastus"
+        #os.environ["AZURE_SUBSCRIPTION_KEY"] = "60c24696a4da49ba94a903def1577350"
+        #os.environ["AZURE_SERVICE_REGION"] = "eastus"
 
         #self.set_speech_service(GTTSService())
         self.set_speech_service(
