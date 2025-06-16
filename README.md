@@ -7,6 +7,7 @@ https://user-images.githubusercontent.com/110152/214857875-9cd69715-f5f8-452f-9e
 
 * [manim](https://github.com/ManimCommunity/manim) -- Library for math visualizations
 * [manim-voiceover](https://github.com/ManimCommunity/manim-voiceover) -- plugin for auto text-to-speech and subtitles
+* Latex -- for MathTex
 
 # TODO
 
