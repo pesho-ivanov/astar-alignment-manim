@@ -2,3 +2,4 @@ media/
 *.pyc
 .vscode/tasks.json
 seed_heuristic.py
+.env
